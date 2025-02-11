@@ -1,0 +1,55 @@
+#page {
+  width: 100vw;
+  height: 90vh;
+  margin: 1rem auto;
+}
+
+/* 12_position_fixed.css */
+.top-bar {
+  /* 화면의 세로 10% == 10vh */
+  height: 5vh;
+  background-color: aqua;
+  /* TODO: 위치고정 */
+  position: fixed;
+  /* TODO: x좌표 */
+  left: 0;
+  /* TODO: x좌표 */
+  top: 0;
+  /* TODO: -x좌표 */
+  right: 0;
+  display: flex;
+  align-items: center;
+}
+.logo > img {
+  width: 5rem;
+  padding-left: 0.5rem;
+}
+.menu {
+  margin-left: auto;
+}
+.item {
+  display: inline-block;
+  padding-right: 0.5rem;
+}
+.item img {
+  width: 1rem;
+}
+
+.main {
+  clear: both;
+  width: 100vw;
+  height: 70%;
+  margin-top: 2.4rem;
+  background-image: url("./img/MAIN\ IMG1.png");
+  background-size: fill;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main2 {
+  width: 100vw;
+  height: 70%;
+  background-image: url("./img/MAIN\ IMG2.jpg");
+  background-size: fill;
+  background-position: center;
+  background-repeat: no-repeat;
+}
