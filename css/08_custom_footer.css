@@ -1,0 +1,16 @@
+/* TODO: 전체 박스(페이지) */
+#page {width: 99vw; height: 99vh; margin: 0 auto;}
+/* TODO: 꼬리말(footer) */
+footer {clear: both;height: 6rem;background-color: lightgray;
+        font-style: italic;}
+        /* TODO: 주소 */
+#address {margin-left: 2rem ;height: 50%;
+display: flex; align-items: center;}
+#customer {margin-left: 2rem;height: 50%;
+    display: flex; align-items: center;}
+@media screen and (min-width:768px) {
+    #address {float: left;height: 100%;}
+        #customer {float: right;height: 100%;}
+}
+@media screen and (min-width:1024px) {
+}
